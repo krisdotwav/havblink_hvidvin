@@ -61,6 +61,8 @@
         <source src="havblink-hero.mp4" type="video/mp4"/>
         Your browser does not support the video tag.
     </video>
+
+    <!-- Knap som scroller ned til næste side -->
     <div class="scroll-button">
         <div class="circle">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -72,8 +74,10 @@
                 </g>
             </svg>                
         </div>
-        <p>Rul ned for at læse mere</p>
+        <button onclick="scrollDown()">Klik her for at læse mere</button>
     </div>
+    
+    <!-- Forsidens indhold -->
     <main>
         <div class="content">
             <article>
@@ -86,5 +90,13 @@
             <img src="images/Mockup 01.jpg" alt="Solaris Hvidvin" class="image">
         </div>
     </main>
+    <script>
+        function scrollDown() {
+            window.scrollBy ({
+            top: window.innerHeight,
+            behavior: 'smooth'
+            });
+        }
+    </script>
 </body>
 </html>
