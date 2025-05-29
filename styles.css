@@ -13,7 +13,7 @@ body {
     overflow-x: hidden;
 }
 
-header {
+/* header {
     display: flex;
     width: 100%;
     padding: 20px 15%;
@@ -54,7 +54,7 @@ nav {
     text-decoration: underline;
     text-decoration-color: #1e1e1e;
     text-underline-offset: 2px;
-}
+} */
 
 /* Sørger for at videoen fylder viewporten ud i bredde og højde */
 video {
@@ -125,7 +125,13 @@ section {
 article {
     display: flex;
     flex-direction: column;
+    text-align: justify;
+    max-width: 70%;
     gap: 40px;
+}
+
+article a:hover {
+    opacity: 0.6;
 }
 
 /* Responsive Smart Phone */
