@@ -8,6 +8,7 @@
 h1 {
     font-family: "unbounded", sans-serif;
     font-weight: semi-bold;
+    font-size: 42pt;
     font-style: normal;
     text-transform: uppercase;
 }
@@ -23,8 +24,14 @@ h2 {
 
 p {
     font-family: "Satoshi", sans-serif;
-    font-size: 11pt;
+    font-size: 12pt;
     color: #1e1e1e;
     line-height: 1.5;
+    letter-spacing: 0.2px;
+}
+
+a {
+    font-family: "Satoshi", sans-serif;
+    color: #1e1e1e;
     letter-spacing: 0.2px;
 }

@@ -47,9 +47,7 @@ nav {
 .nav-link a {
     font-family: 'Satoshi', sans-serif;
     font-size: 11pt;
-    color: #1e1e1e;
     text-decoration: none;
-    letter-spacing: 0.2px;
 }
 
 .nav-link a:hover {
