@@ -65,8 +65,6 @@ video {
     object-fit: cover;
 }
 
-
-
 .scroll-button {
     /* Centrerer knappen horizontalt */
     position: absolute;
@@ -102,7 +100,7 @@ video {
     border-radius: 25px;
 }
 
-main {
+section {
     width: 70%;
     margin: 100px auto;
 }
