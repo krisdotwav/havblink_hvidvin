@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Havblink Hvidvin</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="https://use.typekit.net/clw4iqd.css">
 </head>
 <body>
@@ -63,7 +64,7 @@
     </video>
 
     <!-- Knap som scroller ned til næste side -->
-    <div class="scroll-button">
+    <div onclick="scrollDown()" class="scroll-button">
         <div class="circle">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <mask id="mask0_53_194" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
@@ -74,7 +75,7 @@
                 </g>
             </svg>                
         </div>
-        <button onclick="scrollDown()">Klik her for at læse mere</button>
+        <p>Klik her for at læse mere</p>
     </div>
     
     <!-- Forsidens indhold -->
@@ -85,13 +86,17 @@
                     <h1 style="font-size: 42pt;">Solaris</h1>
                     <h2 style="font-size: 18pt;">2025</h2>
                 </div>
-                <p style="text-align: justify;">Dansk hvidvin i særklasse. Solaris, 2025 fra Havblink Hvidvin byder på friske noter af grønne æbler, stikkelsbær og hyldeblomst, med en sprød syre og elegant mineralsk eftersmag. Perfekt til fisk, skaldyr eller som aperitif en lys sommeraften.</p>
+                <p style="text-align: justify;">Velkommen til Havblink Hvidvin - en dansk vingård på Sydfyn, hvor naturens ro, havets nærhed og passionen for godt håndværk mødes i en flaske.
+                <br><br>
+                Dansk hvidvin er ikke længere bare en kuriositet - den vinder priser, vinder anerkendelse og vinder plads på hylderne i både gourmetrestauranter og private hjem.
+                <br><br>
+                Flere internationale konkurrencer har de seneste år tildelt danske hvidvine flotte placeringer, og selv Michelin-restauranter serverer nu vin fra Danmark. Det er ikke længere et eksperiment – det er en ny æra.</p>
             </article>
             <img src="images/Mockup 01.jpg" alt="Solaris Hvidvin" class="image">
         </div>
     </main>
 
-    <!-- Funktion som scroller 1x viewports højde -->
+    <!-- Funktion som scroller 1x viewport højde -->
     <script>
         function scrollDown() {
             window.scrollBy ({

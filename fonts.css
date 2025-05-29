@@ -1,0 +1,30 @@
+
+@font-face {
+    font-family: Satoshi;
+    src: url("./fonts/Satoshi-Regular.woff2") format("woff2"),
+        url("./fonts/Satoshi-Regular.woff") format("woff");
+}
+
+h1 {
+    font-family: "unbounded", sans-serif;
+    font-weight: semi-bold;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: "neulis-sans", sans-serif;
+    font-weight: semi-bold;
+    font-size: 11pt;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+p {
+    font-family: "Satoshi", sans-serif;
+    font-size: 11pt;
+    color: #1e1e1e;
+    line-height: 1.5;
+    letter-spacing: 0.2px;
+}

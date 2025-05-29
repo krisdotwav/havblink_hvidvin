@@ -13,27 +13,8 @@ body {
     overflow-x: hidden;
 }
 
-@font-face {
-    font-family: Satoshi;
-    src: url("./fonts/Satoshi-Regular.woff2") format("woff2"),
-        url("./fonts/Satoshi-Regular.woff") format("woff");
-}
 
-h1 {
-    font-family: "unbounded", sans-serif;
-    font-weight: semi-bold;
-    font-style: normal;
-    text-transform: uppercase;
-}
 
-h2 {
-    font-family: "neulis-sans", sans-serif;
-    font-weight: semi-bold;
-    font-size: 11pt;
-    font-style: normal;
-    text-transform: uppercase;
-    letter-spacing: 6px;
-}
 
 header {
     display: flex;
@@ -87,13 +68,7 @@ video {
     object-fit: cover;
 }
 
-p {
-    font-family: "Satoshi", sans-serif;
-    font-size: 11pt;
-    color: #1e1e1e;
-    line-height: 1.5;
-    letter-spacing: 0.2px;
-}
+
 
 .scroll-button {
     /* Centrerer knappen horizontalt */
@@ -112,21 +87,12 @@ p {
     border-radius: 100px;
     background-color: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(24px);
+    transition: 0.5s;
 }
 
-button {
-    font-family: "Satoshi", sans-serif;
-    font-size: 11pt;
-    color: #1e1e1e;
-    letter-spacing: 0.2px;
-    background-color: transparent;
-    border: none;
-}
-
-button:hover {
-    text-decoration: underline;
-    text-decoration-color: #1e1e1e;
-    text-underline-offset: 2px;
+.scroll-button:hover {
+    background-color: rgba(255, 255, 255, 0.65);
+    cursor: pointer;
 }
 
 .circle {
