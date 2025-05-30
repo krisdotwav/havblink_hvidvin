@@ -73,7 +73,7 @@ section {
 .content {
     display: flex;
     margin: auto;
-    gap: 4vw;
+    gap: 40px;
 }
 
 .content img {
