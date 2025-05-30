@@ -89,10 +89,6 @@ article {
     gap: 40px;
 }
 
-article a:hover {
-    opacity: 0.6;
-}
-
 /* Responsiv på smartphone */
 @media screen and (max-width: 768px) {
     header {
