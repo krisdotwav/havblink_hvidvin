@@ -69,3 +69,22 @@ footer p {
     height: 26px;
     background-color: white;
 }
+
+@media screen and (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .vertical-line {
+        display: none;
+    }
+
+    footer h2 {
+        display: none;
+    }
+
+    footer svg {
+        display: none;
+    }
+}

@@ -126,7 +126,6 @@ article {
     display: flex;
     flex-direction: column;
     text-align: justify;
-    max-width: 70%;
     gap: 40px;
 }
 
@@ -163,6 +162,10 @@ article a:hover {
         flex-direction: column;
         text-align: center;
         gap: 12px;
+    }
+
+    article {
+        min-width: 100%;
     }
 
     .content img {
