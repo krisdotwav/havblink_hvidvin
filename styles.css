@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* Gør at scroll-knappen er "smooth" i bevægelsen */
 html {
     scroll-behavior: smooth;
 }
@@ -12,49 +13,6 @@ html {
 body {
     overflow-x: hidden;
 }
-
-/* header {
-    display: flex;
-    width: 100%;
-    padding: 20px 15%;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
-    height: fit-content;
-    position: fixed;
-    top: 0;
-    backdrop-filter: blur(24px);
-    box-sizing: border-box;
-    z-index: 1;
-    background-color: rgba(255, 255, 255, 0.3);
-}
-
-nav {
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    gap: 40px;
-}
-
-.nav-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    gap: 8px;
-}
-
-.nav-link a {
-    font-family: 'Satoshi', sans-serif;
-    font-size: 11pt;
-    text-decoration: none;
-}
-
-.nav-link a:hover {
-    text-decoration: underline;
-    text-decoration-color: #1e1e1e;
-    text-underline-offset: 2px;
-} */
 
 /* Sørger for at videoen fylder viewporten ud i bredde og højde */
 video {
@@ -70,6 +28,7 @@ video {
     transform: translateX(-50%);
     bottom: 5vh;
 
+    /* Styling af knappen */
     display: flex;
     width: fit-content;
     height: fit-content;
@@ -133,7 +92,7 @@ article a:hover {
     opacity: 0.6;
 }
 
-/* Responsive Smart Phone */
+/* Responsiv på smartphone */
 @media screen and (max-width: 768px) {
     header {
         padding: 20px 20px;
