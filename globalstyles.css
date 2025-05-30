@@ -59,6 +59,11 @@ footer p {
     color: white;
 }
 
+footer svg:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
 .footer-container {
     display: flex;
     gap: 6px;
