@@ -121,7 +121,7 @@ input:focus::placeholder {
 @media screen and (max-width: 768px) {
     footer {
         flex-direction: column;
-        padding: 20px 0%;
+        padding: 40px;
     }
 
     .footer-content {
