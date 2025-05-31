@@ -1,7 +1,5 @@
 @font-face {
     font-family: Satoshi;
-    src: url("./fonts/Satoshi-Regular.woff2") format("woff2"),
-        url("./fonts/Satoshi-Regular.woff") format("woff");
 }
 
 h1 {
@@ -31,11 +29,9 @@ h3 {
 }
 
 p {
-    font-family: "Satoshi", sans-serif;
     font-size: 11pt;
     color: #1e1e1e;
     line-height: 1.6;
-    letter-spacing: 0.4px;
 }
 
 a {
