@@ -1,0 +1,130 @@
+.products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
+.product-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+    align-self: stretch;
+}
+
+.product-card img {
+    width: 300px;
+    align-self: stretch;
+    box-shadow: inset 0px 0px 40px 40px #ededed;
+    object-fit: cover;
+}
+
+.product-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 12px;
+    flex: 1 0 0;
+}
+
+.info-card {
+    display: flex;
+    padding: 10px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 0px 8px 8px 0px;
+    border-left: 3px solid #A2836C;
+    background: rgba(162, 131, 108, 0.10);
+}
+
+li {
+    font-family: "Satoshi", sans-serif;
+    font-size: 11pt;
+    color: #1e1e1e;
+    line-height: 1.6;
+    letter-spacing: 0.4px;
+}
+
+.horizontal-line {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(30, 30, 30, 0.20);
+}
+
+.rating-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.rating {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+button {
+    display: flex;
+    height: 45px;
+    padding: 0px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    border-radius: 30px;
+    background: #CC6451;
+}
+
+button:hover {
+    background: rgba(204, 99, 81, 0.8);
+    cursor: pointer;
+}
+
+button p {
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .product-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-card img {
+        width: 100%;
+    }
+
+    .product-text {
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .info-card {
+        align-self: center;
+        width: 100%;
+    }
+
+    .horizontal-line {
+        display: none;
+    }
+
+    .rating-box {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .rating {
+        align-items: center;
+    }
+
+    .hide-on-mobile {
+        display: none;
+    }
+}
