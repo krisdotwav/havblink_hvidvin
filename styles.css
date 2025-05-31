@@ -1,8 +1,6 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/*
+ * Stylesheet til forsidensiden
+ */
 
 /* Gør at scroll-knappen er "smooth" i bevægelsen */
 html {
@@ -57,11 +55,13 @@ video {
     border-radius: 25px;
 }
 
+/* Overordnet bredde på siden */
 section {
     width: 70%;
     margin: 100px auto;
 }
 
+/* Flex-box til titeltekster */
 .title-box {
     display: flex;
     flex-direction: column;
