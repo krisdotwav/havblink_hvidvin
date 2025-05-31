@@ -1,3 +1,13 @@
+.logo-text {
+    font-family: "neulis-sans", sans-serif;
+    font-weight: semi-bold;
+    font-size: 11pt;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    text-decoration: none;
+}
+
 h1 {
     font-family: "korolev", sans-serif;
     font-weight: 700;

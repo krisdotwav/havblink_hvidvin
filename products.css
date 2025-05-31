@@ -40,6 +40,10 @@
     background: rgba(162, 131, 108, 0.10);
 }
 
+ul {
+    list-style-position: inside;
+}
+
 li {
     font-family: "Satoshi", sans-serif;
     font-size: 11pt;
