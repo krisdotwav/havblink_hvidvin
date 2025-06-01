@@ -1,31 +1,16 @@
-.image-wrapper {
-    display: flex;
-    width: 100%;
-    height: 500px;
-    align-items: center;
-    justify-content: center;
-}
-
-.image-wrapper img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 8px;
-}
-
 .about-content {
     display: flex;
     flex-direction: column;
     width: 100%;
     align-items: flex-start;
-    gap: 45px;
+    gap: 40px;
 }
 
 .about-content-2 {
     display: flex;
     width: 100%;
     align-items: flex-start;
-    gap: 45px;
+    gap: 40px;
 }
 
 .information {
@@ -88,7 +73,7 @@
     padding-left: 20px;
     justify-content: center;
     align-items: center;
-    align-self: stretch;
+    align-self: flex-start;
     border-left: 1px solid rgba(30, 30, 30, 0.20);
 }
 
@@ -135,10 +120,6 @@ button p {
 }
 
 @media screen and (max-width: 768px) {
-    .image-wrapper {
-        height: 300px;
-    }
-
     .about-content {
         gap: 20px;
     }

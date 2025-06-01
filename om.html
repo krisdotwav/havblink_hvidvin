@@ -7,14 +7,14 @@
     <link rel="stylesheet" href="globalstyles.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="fonts.css">
-    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="om.css">
     <link rel="stylesheet" href="https://use.typekit.net/clw4iqd.css">
     <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,401,700&display=swap" rel="stylesheet">
 </head>
 <body style="background-color: #ededed;">
     <header>
         <a href="index.html" class="logo-text">Havblink Hvidvin</a>
-        <nav>
+        <nav class="desktop-nav">
             <div class="nav-link">
                 <a href="index.html">Forside</a>
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -38,7 +38,7 @@
                 </svg>                    
             </div>
             <div class="nav-link">
-                <a href="/om.html">Om Havblink</a>
+                <a href="#">Om Havblink</a>
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <mask id="mask0_53_162" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="17">
                     <rect y="0.5" width="16" height="16" fill="#D9D9D9"/>
@@ -49,7 +49,7 @@
                 </svg>                    
             </div>
             <div class="nav-link">
-                <a href="/kontakt.html">Kontakt</a>
+                <a href="kontakt.html">Kontakt</a>
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <mask id="mask0_53_174" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="17">
                     <rect y="0.5" width="16" height="16" fill="#D9D9D9"/>
@@ -60,6 +60,21 @@
                 </svg>                    
             </div>
         </nav>
+        <div class="off-screen-menu">
+            <ul class="off-screen-menu-list">
+                <li><a href="index.html">Forside</a></li>
+                <li><a href="vine.html">Vine</a></li>
+                <li><a href="om.html">Om Havblink</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </div>
+        <nav class="mobile-nav">
+            <div class="ham-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </nav>
     </header>
     <div class="title-box" style="padding-top: 150px;">
         <h1 class="hide-on-mobile">Om Havblink vingård</h1>
@@ -67,7 +82,6 @@
         <h3>En Sydfynsk oase</h3>
     </div>
     <section>
-        
         <div class="about-content">
             <div class="image-wrapper">
                 <img src="images/Vineyard 02.jpg" alt="">
@@ -167,6 +181,7 @@
                                 <strong>Antal:</strong> 2-12 personer pr. hold <br>
                                 <strong>Pris:</strong> Kontakt os for tilbud <br>
                                 <strong>Sted:</strong> Solsbærvej 14, 5771 Stenstrup</p>
+                            <p>Gårdbutikken holder åbent alle weekender og efter aftale.</p>
                         </div>
                         <button>
                             <p>Book online</p>
@@ -224,3 +239,8 @@
             <p class="hide-text">Alle rettigheder forbeholdes.</p>
         </div>
     </footer>
+    
+    <!-- Funktion for hamburger menu -->
+    <script src="./app.js"></script>
+</body>
+</html>

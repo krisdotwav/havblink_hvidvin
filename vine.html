@@ -14,7 +14,7 @@
 <body style="background-color: #ededed;">
     <header>
         <a href="index.html" class="logo-text">Havblink Hvidvin</a>
-        <nav>
+        <nav class="desktop-nav">
             <div class="nav-link">
                 <a href="index.html">Forside</a>
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -60,6 +60,21 @@
                 </svg>                    
             </div>
         </nav>
+        <div class="off-screen-menu">
+            <ul class="off-screen-menu-list">
+                <li><a href="index.html">Forside</a></li>
+                <li><a href="vine.html">Vine</a></li>
+                <li><a href="om.html">Om Havblink</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </div>
+        <nav class="mobile-nav">
+            <div class="ham-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </nav>
     </header>
     <div class="title-box" style="padding-top: 150px;">
         <h1>Vores udvalg</h1>
@@ -299,5 +314,8 @@
             <p class="hide-text">Alle rettigheder forbeholdes.</p>
         </div>
     </footer>
+    
+    <!-- Funktion for hamburger menu -->
+    <script src="./app.js"></script>
 </body>
 </html>
