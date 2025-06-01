@@ -13,6 +13,8 @@
 <body>
     <header>
         <a href="index.html" class="logo-text">Havblink Hvidvin</a>
+
+        <!-- Navigationsmenu som vises på desktop-versionen -->
         <nav class="desktop-nav">
             <div class="nav-link">
                 <a href="#">Forside</a>
@@ -59,6 +61,8 @@
                 </svg>                    
             </div>
         </nav>
+
+        <!-- Off-screen menu som vises på mobil-versionen -->
         <div class="off-screen-menu">
             <ul class="off-screen-menu-list">
                 <li><a href="index.html">Forside</a></li>
@@ -67,6 +71,8 @@
                 <li><a href="kontakt.html">Kontakt</a></li>
             </ul>
         </div>
+
+        <!-- Navigationsmenu som vises på desktop-versionen -->
         <nav class="mobile-nav">
             <div class="ham-menu">
               <span></span>
@@ -75,6 +81,8 @@
             </div>
           </nav>
     </header>
+
+    <!-- Video i baggrunden -->
     <video playsinline autoplay loop muted>
         <source src="havblink-hero.mp4" type="video/mp4"/>
         Your browser does not support the video tag.
@@ -177,7 +185,7 @@
             const elementHeight = elementRect.height;
             const viewportHeight = window.innerHeight;
     
-            // Calculate scroll position to center the element
+            // Beregner scroll position for at centrere elementet i viewporten
             const scrollTo = absoluteElementTop - (viewportHeight / 2) + (elementHeight / 2);
     
             window.scrollTo({ top: scrollTo, behavior: 'smooth' });
