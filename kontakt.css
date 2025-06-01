@@ -2,7 +2,9 @@
     display: flex;
     flex-direction: row;
     width: 100%;
+    justify-content: center;
     align-items: center;
+    padding: 5%;
     gap: 40px;
 }
 
@@ -39,10 +41,10 @@ form {
     display: flex;
     flex-direction: column;
     align-self: center;
-    padding: 60px 0px;
     margin: auto;
     gap: 20px;
-    width: 400px;
+    width: 100%;
+    padding: auto;
 }
 
 input {
@@ -69,15 +71,24 @@ textarea:focus::placeholder {
     color: transparent;
 }
 
+.contact-endtext {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding: auto;
+}
+
 @media screen and (max-width: 768px) {
     .contact-content {
         flex-direction: column;
         align-items: center;
-        gap: 20px;
+        gap: 60px;
+        padding: 40px 0 0 0;
     }
     
     form {
         width: 100%;
+        margin: auto;
     }
 
     textarea {

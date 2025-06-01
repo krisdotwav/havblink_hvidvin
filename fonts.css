@@ -21,6 +21,15 @@ h1 {
     text-transform: uppercase;
 }
 
+p {
+    font-family: "Satoshi", sans-serif;
+    font-size: 11pt;
+    font-weight: 300;
+    color: #1e1e1e;
+    line-height: 1.6;
+    letter-spacing: 0.4px;
+}
+
 h2 {
     font-family: "neulis-sans", sans-serif;
     font-weight: semi-bold;
@@ -39,14 +48,6 @@ h3 {
     text-transform: uppercase;
 }
 
-p {
-    font-family: "Satoshi", sans-serif;
-    font-size: 11pt;
-    font-weight: 300;
-    color: #1e1e1e;
-    line-height: 1.6;
-    letter-spacing: 0.4px;
-}
 
 a {
     font-family: "Satoshi", sans-serif;
