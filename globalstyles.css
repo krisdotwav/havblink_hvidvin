@@ -191,8 +191,8 @@ input {
     font-family: 'Satoshi', sans-serif;
     font-size: 9pt;
     border: none;
-    padding: 8px 10px;
-    border-radius: 4px;
+    padding: 10px 12px;
+    border-radius: 6px;
 }
 
 input:focus {
