@@ -54,6 +54,10 @@ a {
     letter-spacing: 0.4px;
 }
 
+strong {
+    font-weight: bold;
+}
+
 @media screen and (max-width: 768px) {
     h1 {
         font-size: 32pt;

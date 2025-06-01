@@ -135,6 +135,7 @@ button p {
 
     .rating {
         align-items: center;
+        padding: 0;
     }
 
     .hide-on-mobile {
